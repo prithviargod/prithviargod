@@ -25,33 +25,6 @@
 
 ---
 
-## Leadership Self-Assessment Portal (Flask MVP)
-
-### Features
-- 35-question IKS-aligned leadership self-assessment across 7 domains.
-- Domain scoring (max 25) and overall score (max 175).
-- Strength, Developing, and Priority Area classifications.
-- PDF report generation and optional email delivery.
-
-### Local Setup
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-### Run the App
-```bash
-python app.py
-```
-
-Open `http://127.0.0.1:5000` in your browser.
-
-### Email Configuration (Optional)
-Set the following environment variables before running the app:
-
-```bash
-export SMTP_HOST="smtp.gmail.com"
 export SMTP_PORT="587"
 export SMTP_USER="your-user@example.com"
 export SMTP_PASSWORD="your-app-password"
