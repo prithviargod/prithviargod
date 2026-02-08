@@ -23,14 +23,3 @@
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
----
-
-export SMTP_PORT="587"
-export SMTP_USER="your-user@example.com"
-export SMTP_PASSWORD="your-app-password"
-export SMTP_SENDER="Leadership Reports <your-user@example.com>"
-export SMTP_USE_TLS="true"
-```
-
-> If SMTP variables are not set, the report will still be generated for download,
-> and the UI will show that email delivery was skipped.
